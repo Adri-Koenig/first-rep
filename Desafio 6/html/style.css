@@ -94,6 +94,11 @@ header ul li a {
     letter-spacing: 3px;
 }
 
+header ul li a:hover {
+    color: blue;
+    transition: all .5s;
+}
+
 /* /NAV */
 
 /* /HEADER */
@@ -244,6 +249,12 @@ footer ul {
     display: flex;
     list-style: none;
     margin-right: 3%;
+}
+
+.redes ul li:hover {
+    transform: scale(1.2,1.2);
+    transition: all .5s;
+    cursor: pointer;
 }
 
 /* /FOOTER */
@@ -411,12 +422,24 @@ footer ul {
     padding: 5%;
 }
 
+.artic-a:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+    cursor: pointer;
+}
+
 .artic-b {
     grid-area: artic-b;
     border-radius: 5%;
     border: 3px solid white;
     background-color: black;
     padding: 5%;
+}
+
+.artic-b:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+    cursor: pointer;
 }
 
 .artic-c {
@@ -428,6 +451,12 @@ footer ul {
     padding: 5%;
 }
 
+.artic-c:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+    cursor: pointer;
+}
+
 .artic-d {
     grid-area: artic-d;
     border-radius: 5%;
@@ -435,6 +464,12 @@ footer ul {
     background-color: black;
     margin-left: 2em;
     padding: 5%;
+}
+
+.artic-d:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+    cursor: pointer;
 }
 
 .artic-e {
@@ -445,6 +480,12 @@ footer ul {
     padding: 5%;
 }
 
+.artic-e:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+    cursor: pointer;
+}
+
 .artic-f {
     grid-area: artic-f;
     border-radius: 5%;
@@ -452,6 +493,12 @@ footer ul {
     background-color: black;
     margin-right: 2em;
     padding: 5%;
+}
+
+.artic-f:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+    cursor: pointer;
 }
 
 .info {
@@ -522,6 +569,12 @@ footer ul {
 
 .icon {
     width: 150%;
+}
+
+.icon:hover {
+    transform: scale(1.4,1.4);
+    transition: all .5s;
+    cursor: pointer;
 }
 
 .picture {
