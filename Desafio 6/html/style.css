@@ -94,6 +94,11 @@ header ul li a {
     letter-spacing: 3px;
 }
 
+header ul li a:hover {
+    color: blue;
+    transition: all .5s;
+}
+
 /* /NAV */
 
 /* /HEADER */
