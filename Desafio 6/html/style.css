@@ -501,6 +501,7 @@ footer ul {
 #CONTACTO H4 {
     font-size: 1.7em;
     color: cyan;
+    text-shadow: blue 3px 2px;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -520,16 +521,17 @@ footer ul {
 }
 
 .icon {
-    width: 200%;
+    width: 150%;
 }
 
-.p2 {
+.picture {
     width: 90%;
     height: 500px;
     margin: auto;
     display: block;
     border-radius: 25px;
     margin-top: 3%;
+    border: 3px solid white;
 }
 
 /*        /CONTACTO           */
