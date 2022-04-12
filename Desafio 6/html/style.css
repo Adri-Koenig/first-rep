@@ -571,6 +571,12 @@ footer ul {
     width: 150%;
 }
 
+.icon:hover {
+    transform: scale(1.4,1.4);
+    transition: all .5s;
+    cursor: pointer;
+}
+
 .picture {
     width: 90%;
     height: 500px;
