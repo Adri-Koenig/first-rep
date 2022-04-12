@@ -251,6 +251,12 @@ footer ul {
     margin-right: 3%;
 }
 
+.redes ul li:hover {
+    transform: scale(1.2,1.2);
+    transition: all .5s;
+    cursor: pointer;
+}
+
 /* /FOOTER */
 
 /*           EQUIPO           */
